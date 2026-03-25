@@ -22,3 +22,8 @@ body {
   max-width: 200px;
   display: block;
 }
+
+.game-card:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
