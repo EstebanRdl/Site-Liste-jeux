@@ -22,7 +22,7 @@ function afficherJeux(jeux) {
 
   jeux.forEach(jeu => {
     const card = document.createElement("div");
-    card.classList.add("game-card");
+    card.classList.add("game");
 
     card.innerHTML = `
       <img src="images/${jeu.image}.jpg" alt="${jeu.nom}">
