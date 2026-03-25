@@ -23,7 +23,13 @@ body {
   display: block;
 }
 
-.game-card:hover {
+.game:hover {
   transform: scale(1.05);
   transition: 0.2s;
+}
+
+#game-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
 }
