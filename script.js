@@ -25,7 +25,7 @@ function afficherJeux(jeux) {
     card.classList.add("game");
 
     card.innerHTML = `
-      <img src="images/${jeu.image}.jpeg" alt="${jeu.nom}">
+      <img src="images/${jeu.image}.jpe" alt="${jeu.nom}">
       <p>${jeu.nom}</p>
     `;
 
