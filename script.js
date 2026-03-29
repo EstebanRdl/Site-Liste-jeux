@@ -31,7 +31,7 @@ function afficherJeux(jeux) {
 
     // Quand on clique → redirection vers page détail
     card.addEventListener("click", () => {
-      window.location.href = `game.html?nom=${jeu.nom}`;
+      window.location.href = `jeu.html?nom=${jeu.nom}`;
     });
 
     container.appendChild(card);
