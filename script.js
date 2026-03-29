@@ -29,6 +29,11 @@ function afficherJeux(jeux) {
       <p>${jeu.nom}</p>
     `;
 
+    // Quand on clique → redirection vers page détail
+    card.addEventListener("click", () => {
+      window.location.href = `game.html?nom=${jeu.nom}`;
+    });
+
     container.appendChild(card);
   });
 }

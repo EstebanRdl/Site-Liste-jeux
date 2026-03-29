@@ -1,0 +1,22 @@
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const nom = params.get("nom");
+
+  fetch("games.json")
+    .then(response => response.json())
+    .then(data => {
+      const jeu = data.find(j => j.nom === nom);
+
+      const container = document.getElementById("game-detail");
+
+      if (jeu) {
+        container.innerHTML = `
+          <h1>${jeu.nom}</h1>
+          <img src="images/${jeu.image}.jpeg" alt="${jeu.nom}">
+          <p>${jeu.status}</p>
+        `;
+      } else {
+        container.innerHTML = "<p>Jeu introuvable</p>";
+      }
+    });
+</script>

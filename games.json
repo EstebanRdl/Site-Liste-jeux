@@ -225,13 +225,13 @@
   "status" : "fini",
   "mot_cles" : [ "super-hèros", "monde-ouvert", "spiderman", "marvel", "3ème personne", "combat", "action", "PS4", "PS5", "PC", "Insomniac Games", "Sony" ],
   "note" : [ 2.0, 1.5, 1.5, 1.5, 2.0, 2.0, 2.0, 1.5, 1.0, 2.0 ],
-  "image" : ""
+  "image" : "spiderman"
 }, {
   "nom" : "STALKER: Shadow of Chernobyl",
   "status" : "pas fait",
   "mot_cles" : [ "mutant", "fps", "survie", "monde-ouvert", "PC", "GSC Game World", "THQ" ],
   "note" : [ null, null, null, null, null, null, null, null, null, null ],
-  "image" : ""
+  "image" : "Shadow_of_Chernobyl_cover"
 }, {
   "nom" : "Two world 2",
   "status" : "pas fait",
@@ -1179,7 +1179,7 @@
   "status" : "fini",
   "mot_cles" : [ "histoire interactive", "enigme", "3ème personne", "PC", "PS4", "Xbox One", "Deck Nine Games", "Square Enix" ],
   "note" : [ null, null, null, null, null, null, null, null, null, null ],
-  "image" : "image_test"
+  "image" : "P3Pq9WmsrUBhvN4FBS5mNhRf81MaWCEU"
 }, {
   "nom" : "Goat simulator 3",
   "status" : "en cours",
@@ -1245,7 +1245,7 @@
   "status" : "fini",
   "mot_cles" : [ "monde-ouvert", "super-hèros", "3ème personne", "PS3", "Sucker Punch", "Sony" ],
   "note" : [ null, null, null, null, null, null, null, null, null, null ],
-  "image" : "image_test"
+  "image" : "thumb_6224_post_small"
 }, {
   "nom" : "Watch dogs",
   "status" : "en cours",
@@ -1269,7 +1269,7 @@
   "status" : "fini",
   "mot_cles" : [ "coop", "fps", "police", "tactique", "PC", "VOID Interactive" ],
   "note" : [ 2.0, 1.5, 1.5, 1.5, 2.0, 1.0, 2.0, 2.0, 1.5, 2.0 ],
-  "image" : "image_test"
+  "image" : "da9f50007c771345aba1636b0e3aa47e3210fa36991b36f7"
 }, {
   "nom" : "Tainted grail : the fall of Avalon",
   "status" : "pas fait",
@@ -1281,7 +1281,7 @@
   "status" : "pas fait",
   "mot_cles" : [ "semi-ouvert", "rpg", "médiéval", "dark fantaysie", "PC", "PS3", "PS4", "Xbox 360", "Xbox One", "BioWare", "EA" ],
   "note" : [ null, null, null, null, null, null, null, null, null, null ],
-  "image" : "image_test"
+  "image" : "GekXyvhgt2MC5yHNdyiPTW3G5X25XK6E"
 }, {
   "nom" : "Claire obscure: expédition 33",
   "status" : "pas fait",
