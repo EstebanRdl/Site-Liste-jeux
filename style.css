@@ -45,10 +45,9 @@ body {
 
 #game-detail img {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
+  height: auto;
   display: block;
-  border-radius: 5px;
+  border-radius: 5px
 }
 
 #game-detail {
