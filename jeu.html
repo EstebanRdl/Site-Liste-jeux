@@ -20,12 +20,14 @@
       const jeu = data.find(j => j.nom === nom);
 
       const container = document.getElementById("game-detail");
+      const sommeNotes = jeu.note ? jeu.note.reduce((acc, n) => acc + n, 0) : 0;
 
       if (jeu) {
         container.innerHTML = `
           <h1>${jeu.nom}</h1>
           <img src="images/${jeu.image}.jpeg" alt="${jeu.nom}">
           <p>${jeu.status}</p>
+	  <p>Notes : ${sommeNotes}</p>
         `;
       } else {
         container.innerHTML = "<p>Jeu introuvable</p>";
